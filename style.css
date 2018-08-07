@@ -1,0 +1,136 @@
+body{
+    overflow: hidden;
+}
+#header
+{
+    background-color: paleturquoise;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 130px;
+
+}
+
+#webContent
+{
+    background-color: palegreen;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    height: calc(100.5vh - 130px);
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+#contentDiv
+{
+    
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    
+}
+
+.sidebar
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+
+    background-color: #f1f1f1;
+    color: black;
+
+    width: 100%;
+    
+}
+p{
+    text-align: justify;
+    padding-left: 10px;
+}
+.content
+{
+    box-sizing: border-box;
+}
+
+.menuItem
+{
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+.menuItem::first-letter
+{
+    text-transform: uppercase;
+}
+
+.sidebarList
+{
+    padding-left: 0px;
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+h1{
+    text-align: center;
+}
+
+h1::first-letter
+{
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child{
+    float: right;
+
+}
+
+li a:hover{
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+/*
+div ~ p {
+    background-color: saddlebrown;
+}
+
+div + p {
+    background-color: rebeccapurple;
+}
+
+div > p {
+    background-color: teal;
+}
+
+div p {
+    background-color: aqua;
+}
+*/
