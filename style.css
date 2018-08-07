@@ -32,6 +32,21 @@ body{
     
 }
 
+#box
+{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s; /* Safari */
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+#box:hover
+{
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
 .sidebar
 {
     font-family: Arial, Helvetica, sans-serif;
